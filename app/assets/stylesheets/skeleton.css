@@ -1,0 +1,316 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 50px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  /*border: 1px solid gray;*/
+  box-shadow: 10px 10px 10px 10px #888888;
+  margin: 5%;
+  display: inline-block;
+  position: relative;
+  width: 90%;
+}
+
+label {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #34495e;
+}
+
+input {
+  height: 15px;
+  width: 20px;
+}
+
+.box h4 {
+  font-size: 1.5em;
+  color: #e74c3c;
+
+}
+
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 150px;
+}
+
+.logo h2 {
+  color: white;
+  background-color: #34495e;
+}
+
+.logo {
+  text-align: center;
+}
+
+.bg-img {
+  background-image: url("conf-bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+label {
+  display: inline-block;
+  padding: 2%;
+}
+
+.title {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 2em;
+}
+
+.admin {
+  text-align: center;
+}
+
+.s-container{
+width: 50%;
+margin-left: 25%;
+padding: 1%
+}
+
+.slogan {
+  font-family: 'Tangerine', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.thank_box {
+  padding: 1%;
+  text-align: center;
+}
+
+.thank_you {
+  font-size: 2em;
+  text-align: center;
+}
+
+.question_1 {
+  padding: 1%;
+  text-align: center;
+}
+
+.question_2 {
+  padding: 1%;
+  text-align: center;
+}
+
+.question_3 {
+  padding: 1%;
+  text-align: center;
+}
+
+.completed h1 {
+  font-size: 2em;
+  color: #c0392b;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 1.5%;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: #34495e;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px #999;
+  width: 20%;
+}
+
+.submit-btn:hover {
+  background-color: #b9304c;
+}
+
+.login-btn {
+  display: inline-block;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #fe0033;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+
+.login-btn:hover {
+  background-color: #b9304c;
+}
+
+.border {
+  border: 2px solid;
+}
+
+.completed {
+  text-align: center;
+  padding: 1%
+}
+@media screen and (max-width: 660px) {
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+
+  .box {
+    display: inline-block;
+    position: relative;
+    width: 90%;
+
+  }
+  .column,
+  .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  label {
+    display: inline-block;
+    padding: 2%;
+  }
+
+  .title {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 2em;
+  }
+
+  .s-container{
+  width: 50%;
+  margin-left: 25%;
+  padding: 1%
+  }
+
+  .slogan {
+    font-family: 'Tangerine', cursive;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .admin {
+    text-align: center;
+  }
+
+  .thank_box {
+    padding: 1%;
+    text-align: center;
+  }
+
+  .thank_you {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .question_1 {
+    padding: 1%;
+    text-align: center;
+  }
+
+  .question_2 {
+    padding: 1%;
+    text-align: center;
+  }
+
+  .question_3 {
+    padding: 1%;
+    text-align: center;
+  }
+
+  .submit-btn {
+    display: inline-block;
+    padding: 2%;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fe0033;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px #999;
+  }
+
+  .submit-btn:hover {
+    background-color: #b9304c;
+  }
+
+  .login-btn {
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fe0033;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px #999;
+  }
+
+  .login-btn:hover {
+    background-color: #b9304c;
+  }
+
+  .border {
+    border: 1px solid;
+  }
+
+  .completed {
+    text-align: center;
+    padding: 1%
+  }
+}

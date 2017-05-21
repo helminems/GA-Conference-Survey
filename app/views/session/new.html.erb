@@ -1,0 +1,11 @@
+<div class="admin">
+  <h1>Admin Login</h1>
+</div>
+
+<%= form_tag '/session', method: 'post' do %>
+  <label for="">Email</label>
+  <input type="text" name="email">
+  <label for="">Password</label>
+  <input type="password" name="password">
+  <button class="login-btn">Login</button>
+<% end %>

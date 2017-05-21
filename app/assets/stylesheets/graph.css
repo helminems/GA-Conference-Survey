@@ -1,0 +1,109 @@
+
+.dashboard {
+  margin-top: 4%;
+  font-size: 4em;
+  color: #2c3e50;
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.db-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.respos {
+  text-align: center;
+  color: #e74c3c;
+  font-family: 'Bungee Inline', cursive;
+  margin: 0 0 20px 0;
+  font-size: 2em;
+}
+
+.total-respos {
+  color: #9e2283;
+  font-size: 2em;
+}
+
+.legend {
+  font-size: 12px;
+}                                                       .legend rect {
+  stroke-width: 2;
+}
+.db-q
+{
+  background-color: #043d5b;
+  margin-bottom: 10px;
+  border: 20px solid #043d5b;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+.footnote {
+  background-color: #043d5b;
+  color: white;
+  width:100%;
+  padding: 10px;
+}
+
+.q2-q3{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+
+}
+.q1graph,
+.q2graph,
+.q3Graph
+ {
+  border: 1px solid gray;
+  margin-bottom: 30px;
+  width: 80%;
+  box-shadow: 10px 10px 5px 5px #888888;
+}
+
+/*question no 1*/
+
+.q1graph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arc text {
+  font: 1em sans-serif;
+  text-anchor: middle;
+  fill: white;
+}
+.arc path {
+  stroke: #fff;
+}
+
+/*Question 2*/
+
+.q2-label {
+  font-size: 0.7em;
+}
+.q2graph {
+  margin-right: 10px;
+}
+
+/*question no 3*/
+
+g.hidden line,
+g.hidden path {
+  display: none;
+}
+
+g.x {
+  font-size: 1em;
+  font-weight: bold;
+}
+.tick text{
+  fill: #2c3e50;
+  font-weight: bold;
+  font-size: 1.5em;
+}
